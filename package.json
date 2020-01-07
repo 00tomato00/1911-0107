@@ -1,0 +1,11 @@
+{
+  "name": "myfile0107",
+  "version": "1.0.0",
+  "description": "pakageJson",
+  "main": "1exhello.js",
+  "scripts": {
+    "start": "node 1exhello.js"
+  },
+  "author": "zz",
+  "license": "ISC"
+}
