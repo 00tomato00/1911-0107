@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="v1">
+        <h1>用户列表</h1>
+        <ul>
+            <li v-for=" u in users">{{u.name}}</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+     new Vue({
+        el:"#v1",
+        data:{
+            users:[
+                {
+                    name:"大一"
+                },
+                {
+                    name:"大二"
+                }
+            ]
+        }
+    });
+
+    let vm2 = new Vue();
+
+    // let users= []
+
+
+
+
+
+    // let a = [{n:100},{n:200}];
+
+    // for (let x in a ){
+    //     console.log(a[x].n);
+    // }
+</script>
